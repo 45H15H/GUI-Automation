@@ -1,4 +1,4 @@
-# Automate monkeytype
+# Automate Monkeytype
 
 > A program to automate typing on [_Monkeytype_](https://monkeytype.com/).
 
@@ -6,7 +6,6 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
 * [Contact](#contact)
 <!-- * [License](#license) -->
@@ -33,18 +32,9 @@ To install these libraries to your local environment run the following installat
 * `pip3 install beautifulsoup4`
 * `pip3 install lxml`
 
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+You will also need a WebDriver specific for the browser. You can get the WebDriver for Google Chrome [_here_](https://chromedriver.chromium.org/downloads). For Microsoft Edge, ddownload the WebDriver from [_here_](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/).
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
-
+It would be better if you kept the WebDriver executable file in the project folder rather than adding it to the PATH.
 ## Project Status
 Project is: _in progress_
 
