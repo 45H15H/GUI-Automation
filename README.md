@@ -4,7 +4,8 @@ A collection of GUI automation projects.
 | Project | Description |
 |---|---|
 | [Piano Tiles](https://github.com/45H15H/GUI-Automation/tree/main/Piano-Tiles) | Automate tile clicking |
-| [monkeytype](https://github.com/45H15H/GUI-Automation/tree/main/monkeytype) | Automate typing |
+| [monkeytype](https://github.com/45H15H/GUI-Automation/tree/main/monkeytype) | Automate typing
+| [typer.io](https://github.com/45H15H/GUI-Automation/tree/main/typer.io) | Automate typing
 
 ## Requirements
 
