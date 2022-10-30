@@ -3,7 +3,7 @@ from selenium import webdriver
 import os
 
 # add the path to the WebDriver executable
-os.environ['PATH'] += "C:\Users\Ashish/ Singh\Documents\GitHub\GUI-Automation\monkeytype\msedgedriver.exe"
+os.environ['PATH'] += "msedgedriver.exe"
 
 # set options
 options = webdriver.EdgeOptions()
