@@ -24,7 +24,7 @@ Monkeytype is a minimalistic, customisable typing website. These projects automa
 
 ## Setup
 
-The requirrements for this project are listed above.  
+The requirements for this project are listed above.  
 To install these libraries to your local environment run the following installation commands in you terminal;
 
 * `pip3 install pyautogui`
