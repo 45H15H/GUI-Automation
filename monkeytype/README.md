@@ -13,7 +13,7 @@
 
 ## General Information
 
-Monkeytype is a minimalistic, customisable typing website. These projects automates the typing. Just for fun 😁.
+Monkeytype is a minimalistic, customisable typing website. This project automates the typing. Just for fun 😁.
 
 ## Technologies Used
 
