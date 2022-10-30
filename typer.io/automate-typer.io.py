@@ -2,6 +2,13 @@ import time
 
 from selenium import webdriver
 
+# this imports are for explicit wait
+from selenium.webdriver.common.by import By
+# from selenium.webdriver.support.ui import WebDriverWait # -> this is wrong import
+from selenium.webdriver.support.wait import WebDriverWait # -> this is the correct import
+from selenium.webdriver.support import expected_conditions
+
+
 import os
 
 os.environ['PATH'] += "msedgedriver.exe"
@@ -24,7 +31,13 @@ quickPlay.click()
 # #scroll by pixel
 # driver.execute_script("window.scrollBy(0,200)","")
 
-time.sleep(3)
+# time.sleep(3)
+# here also we don't want to wait for 3 seconds to scroll when the play site has been opened
+# so apply explicit wait here
+WebDriverWait(driver, 5).until(expected_conditions.url_matches("https://typer.io/play"))
+# here use url_matches, not url_changes
+# url_changes is used to check if the previous ulr changed
+# url_matches checks if the current url is matched or not
 
 try:
     driver.execute_script("scrollBy(0,-1000);") # -> this is for scrolling, see -ve sign for
@@ -52,10 +65,6 @@ print(wordList)
 # time.sleep(15) we don't want to wait by time, we wait till go appears
 # we want to wait till the timer starts, and then start typing.
 
-from selenium.webdriver.common.by import By
-# from selenium.webdriver.support.ui import WebDriverWait # -> this is wrong import
-from selenium.webdriver.support.wait import WebDriverWait # -> this is the correct import
-from selenium.webdriver.support import expected_conditions
 
 '''
 # initiate explicit wait
