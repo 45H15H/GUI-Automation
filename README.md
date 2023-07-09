@@ -1,4 +1,4 @@
-# GUI-Automation
+# GUI Automation
 A collection of GUI automation projects.
 
 | Project | Description |
